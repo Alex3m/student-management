@@ -1,0 +1,34 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/student-management
+respond:
+  nameRemind: "The name must not be empty."
+  studentExists: " as a student, already exists in our database. Please verify the name and try again."
+  nonExistingStudent: " as a student, does not exists in our database. Please verify the name and try again."
+  teacherExists: " as a teacher, already exists in our database. Please verify the name and try again."
+  nonExistingTeacher: " as a teacher, does not exists in our database. Please verify the name and try again."
+  courseExists: " course already exists in our database. Please verify the name and try again."
+  nonExistingCourse: " course does not exists in our database. Please verify the name and try again."
+
+  alreadyTeaching: " is already teacher at this course"
+  alreadyStudent: " is already student in this course"
+  notStudentAtCourse: " is not student in this course"
+  singedUp: " is have successfully signed up for "
+  incorrectAge: "Age must be a number. Please verify the age and try again"
+  incorrectHoursFormat: "Total hours should be a number. Please verify hours format and try again"
+  incorrectDegree: "Incorrect degree format. Please try again and provide one of the following: BSc MSc PHD"
+  incorrectGrade: " is incorrect grade format. The Grade should be number and between 2.0 and 6.0. Please verify the grade and try again."
+
+  gradeSuccessfullyAdded: " grade successfully added to: "
+  courseAverageGrade: "'s course students has average grade of: "
+  studentAverageGradeOfCourse: " has average grade of "
+  studentNoCourses: " has no courses. "
+  successfullyCreated: "Successfully created: "
+  successfullyUpdated: "Successfully updated: "
+  updateCancelled: "Update cancelled."
+question:
+  differentTeacher: " already has a teacher, would you like to change it to: "
+  yesNo: "(yes/no)? "
+
+degrees: "BSc MSc PHD"

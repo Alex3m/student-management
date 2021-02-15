@@ -1,0 +1,3 @@
+rootProject.name = 'managment'
+include 'domain'
+include 'cli'
